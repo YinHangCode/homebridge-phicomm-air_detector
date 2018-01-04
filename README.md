@@ -20,8 +20,8 @@
 npm install -g homebridge-phicomm-air_detector
 ```
 ## 配置说明
-listenPort是监听端口，如果让M1直接发包过来写9000。
-forwardAddress是转发地址，可以转发给斐讯服务器或者其它需要用数据的地方。
+listenPort是监听端口，如果让M1直接发包过来写9000。    
+forwardAddress是转发地址，可以转发给斐讯服务器或者其它需要用数据的地方。    
 ```
 "platforms": [{
     "platform": "PhicommAirDetectorPlatform",
