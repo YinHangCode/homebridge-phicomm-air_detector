@@ -43,11 +43,11 @@ forwardAddress是转发地址，可以转发给斐讯服务器或者其它需要
 }]
 ```
 ## 相关项目
-如果你想通过Domoticz使用，请参考项目：[Phicomm-M1-Domoticz-Plugin](https://github.com/promisezackr/Phicomm-M1-Domoticz-Plugin)    
+如果你想通过Domoticz使用，请参考项目： [Phicomm-M1-Domoticz-Plugin](https://github.com/promisezackr/Phicomm-M1-Domoticz-Plugin)    
 
 ## 更新日志
 ### 0.0.2 (coming soon)
 1.增加数据转发功能。    
-1.增加对斐讯空气检测仪悟空M1屏幕亮度的调节.   
+2.增加对斐讯空气检测仪悟空M1屏幕亮度的调节.   
 ### 0.0.1 (2017-11-19)
 1.支持斐讯空气检测仪悟空M1空气质量，温度，湿度功能。   
