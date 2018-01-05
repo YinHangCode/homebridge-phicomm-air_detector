@@ -3,11 +3,14 @@
 
 斐讯的空气检测仪悟空M1的HomeBridge插件。
    
-感谢[Zack](#)，感谢每一位开发者和测试人员。   
+感谢[Zack](https://github.com/promisezackr/)，感谢每一位开发者和测试人员。   
    
 **注: 如果你发现bug， 请提交到[issues](https://github.com/YinHangCode/homebridge-phicomm-air_detector/issues)或加[QQ群: 107927710](//shang.qq.com/wpa/qunwpa?idkey=8b9566598f40dd68412065ada24184ef72c6bddaa11525ca26c4e1536a8f2a3d).**   
 
 ![](https://raw.githubusercontent.com/YinHangCode/homebridge-phicomm-air_detector/master/images/M1.jpg)
+
+## 支持设备
+1.斐讯悟空M1
 
 ## 前置工作
 程序需要数据主动推送过来，可以做DNS欺骗(域名是aircat.phicomm.com)让M1设备直接发包过来，也可以tcpdump截取包再转发过来。    
@@ -39,7 +42,12 @@ forwardAddress是转发地址，可以转发给斐讯服务器或者其它需要
     }]
 }]
 ```
+## 相关项目
+如果你想通过Domoticz使用，请参考项目：[Phicomm-M1-Domoticz-Plugin](https://github.com/promisezackr/Phicomm-M1-Domoticz-Plugin)    
 
 ## 更新日志
-### 0.0.1
-1.支持斐讯空气检测仪悟空M1.   
+### 0.0.2 (coming soon)
+1.增加数据转发功能。    
+1.增加对斐讯空气检测仪悟空M1屏幕亮度的调节.   
+### 0.0.1 (2017-11-19)
+1.支持斐讯空气检测仪悟空M1空气质量，温度，湿度功能。   
